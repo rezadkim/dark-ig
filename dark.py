@@ -2,7 +2,6 @@
 # REkode rekode kontol bapak kau ku rekode.
 # Tinggal pake aja apa susahnya sih ?
 import requests,json,os,sys,time,re,random
-from tqdm import tqdm
 from bs4 import BeautifulSoup
 
 #	WARNA KONTOL	#
