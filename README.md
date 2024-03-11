@@ -1,6 +1,6 @@
 # Dark-IG   (Coming Soon)
 ╔╦╗┌─┐┬─┐┬┌─&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;╦╔═╗<br>
-&nbsp;&nbsp;&nbsp;║║├─┤├┬┘├┴┐───║║ ╦ @v1.0.2<br>
+&nbsp;&nbsp;║║├─┤├┬┘├┴┐───║║ ╦ @v1.0.2<br>
 ═╩╝┴&nbsp;&nbsp; ┴┴└─┴ ┴&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;╩╚═╝ from ©instahack<br>
 
 Tool for mass bruteforce attack instagram<br>
