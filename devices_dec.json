@@ -1,0 +1,198 @@
+{
+    "chrome": {
+        "realme": [
+            "Realme 1|Mozilla/5.0 (Linux; Android 9; CPH1861) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Realme 10|Mozilla/5.0 (Linux; Android 13; RMX3630 Build/TP1A.220905.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{} Mobile Safari/537.36",
+            "Realme 10s|Mozilla/5.0 (Linux; Android 12; RMX3617 Build/SP1A.210812.016) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Realme 10 Pro|Mozilla/5.0 (Linux; Android 13; RMX3663) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Realme 10 Pro 5G|Mozilla/5.0 (Linux; Android 13; RMX3661) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Realme 11 Pro 5G|Mozilla/5.0 (Linux; Android 13; RMX3771) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Realme GT 5G|Mozilla/5.0 (Linux; Android 11; RMX2202) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Realme GT Neo 2T|Mozilla/5.0 (Linux; Android 11; RMX3357) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Realme Narzo 20 Pro|Mozilla/5.0 (Linux; Android 12; RMX2161) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Realme Narzo 50i|Mozilla/5.0 (Linux; Android 11; RMX3235) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36"
+        ],
+        "oppo": [
+            "OPPO F10|Mozilla/5.0 (Linux; Android 11.1.1; Oppo F10) AppleWebKit/547.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/547.36",
+            "OPPO F11|Mozilla/5.0 (Linux; Android 11; CPH1911) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "OPPO F11 Pro|Mozilla/5.0 (Linux; Android 11; CPH1969) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "OPPO F17 Pro|Mozilla/5.0 (Linux; Android 11; CPH2119) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "OPPO F19 Pro|Mozilla/5.0 (Linux; Android 11; CPH2285) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "OPPO A15|Mozilla/5.0 (Linux; Android 10; CPH2185) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "OPPO A16s|Mozilla/5.0 (Linux; Android 11; CPH2271) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "OPPO K10 Pro 5G|Mozilla/5.0 (Linux; Android 12; PGIM10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "OPPO Find X5 Pro|Mozilla/5.0 (Linux; Android 12; CPH2305) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "OPPO R17 Pro|Mozilla/5.0 (Linux; Android 10; CPH1877) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36"
+        ],
+        "vivo": [
+            "Vivo 5|Mozilla/5.0 (Linux; Android 5.1; VIVO 5 Build/V0050UU) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Vivo 6|Mozilla/5.0 (Linux; Android 6.0; VIVO 6 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Vivo X27|Mozilla/5.0 (Linux; Android 10; V1838A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Vivo 7 Pro|Mozilla/5.0 (Linux; Android 10.0.1; Vivo 7 Pro Build/MMB29M; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{} Mobile Safari/537.36",
+            "Vivo iQOO|Mozilla/5.0 (Linux; Android 11; V1824A Build/RP1A.200720.012; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{} Mobile Safari/537.36",
+            "Vivo iQOO 10 Pro|Mozilla/5.0 (Linux; Android 13; V2218A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Vivo Y12 Pro|Mozilla/5.0 (Linux; Android 13; V2163A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{} Mobile Safari/537.36",
+            "Vivo Nex 3 5G|Mozilla/5.0 (Linux; Android 10; V1924A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Vivo S1 Pro|Mozilla/5.0 (Linux; Android 10; V1832A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Vivo S15 Pro|Mozilla/5.0 (Linux; Android 12; V2207A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36"
+        ],
+        "samsung": [
+            "Samsung Galaxy M53 5G|Mozilla/5.0 (Linux; Android 12; SM-M536B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Samsung Galaxy M62|Mozilla/5.0 (Linux; Android 11; SM-M625F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Samsung Galaxy A02s|Mozilla/5.0 (Linux; Android 10; SM-A025G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Samsung Galaxy A10|Mozilla/5.0 (Linux; Android 10; SM-A105G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Samsung Galaxy A24|Mozilla/5.0 (Linux; Android 13; SM-A245M Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{} Mobile Safari/537.36",
+            "Samsung Galaxy S10|Mozilla/5.0 (Linux; Android 12; SM-G973F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Samsung Galaxy A71 5G|Mozilla/5.0 (Linux; Android 11; SM-A7160) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Samsung Galaxy A9 Pro|Mozilla/5.0 (Linux; Android 8.0.0; SM-A9100) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Samsung Galaxy M10s|Mozilla/5.0 (Linux; Android 9; SM-M107F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Samsung Galaxy M32 5G|Mozilla/5.0 (Linux; Android 11; SM-M326B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36"
+        ],
+        "infinix": [
+            "Infinix NOTE 2 LTE|Mozilla/5.0 (Linux; Android 5.1; Infinix NOTE 2 LTE) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Infinix Hot 1|Mozilla/5.0 (Linux; Android 12.1.1; Infinix Hot 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Infinix Hot 10 Play|Mozilla/5.0 (Linux; Android 10; Infinix X688C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Infinix Hot 10s NFC|Mozilla/5.0 (Linux; Android 11; Infinix X689D) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Infinix Hot 10T|Mozilla/5.0 (Linux; Android 11; Infinix X689C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Infinix NOTE 3 PRO|Mozilla/5.0 (Linux; Android 7.0; Infinix NOTE 3 Pro; Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Infinix NOTE 8i|Mozilla/5.0 (Linux; Android 10; Infinix X683B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Infinix Hot 20 5G|Mozilla/5.0 (Linux; Android 12; Infinix X666) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Infinix Hot 20 Play|Mozilla/5.0 (Linux; Android 12; Infinix X6825) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Infinix NOTE 10 PRO|Mozilla/5.0 (Linux; Android 11; Infinix X695) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36"
+        ],
+        "google": [
+            "Google Pixel 8|Mozilla/5.0 (Linux; Android 10.0.0; Pixel 8 Build/OPM1.171019.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Safari/537.36",
+            "Google Pixel 3 XL|Mozilla/5.0 (Linux; Android 10; Pixel 3 XL) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Google Nexus 4|Mozilla/5.0 (Linux; Android 4.2.2; Nexus 4 Build/JDQ39) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.22",
+            "Google Nexus 5|Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Google Pixel 3|Mozilla/5.0 (Linux; Android 12; Pixel 3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Google Pixel 4 XL|Mozilla/5.0 (Linux; Android 11; Pixel 4 XL) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Google Pixel 4a (5G)|Mozilla/5.0 (Linux; Android 13; Pixel 4a (5G)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Google Pixel 5|Mozilla/5.0 (Linux; Android 13; Pixel 5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Google Pixel 6 Pro|Mozilla/5.0 (Linux; Android 12; Pixel 6 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Google Pixelbook Go|Mozilla/5.0 (Linux; Android 9; Google Pixelbook Go) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Safari/537.36"
+        ],
+        "huawei": [
+            "Huawei Enjoy 20|Mozilla/5.0 (Linux; Android 14; HN1-NX9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Huawei Mate X2|Mozilla/5.0 (Linux; Android 12; TET-NX9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Huawei Mate 50|Mozilla/5.0 (Linux; Android 13; TFR-NX9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Huawei P50 Pro|Mozilla/5.0 (Linux; Android 12; DVC-NX9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Huawei Nova 7|Mozilla/5.0 (Linux; Android 11; JEF-NX9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Huawei Mate 30 Pro|Mozilla/5.0 (Linux; Android 10; LIO-L29) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Huawei P30 Pro|Mozilla/5.0 (Linux; Android 9; ELE-L29) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Huawei Honor 9X|Mozilla/5.0 (Linux; Android 10; HLK-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Huawei P40 Pro|Mozilla/5.0 (Linux; Android 10; ELS-NX9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36",
+            "Huawei Mate 40 Pro|Mozilla/5.0 (Linux; Android 10; LYA-L29) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{} Mobile Safari/537.36"
+        ],
+        "iphone": [
+            "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/{} Mobile/15E148 Safari/604.1",
+            "Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/{} Mobile/15E148 Safari/604.1",
+            "Mozilla/5.0 (iPhone; CPU iPhone OS 13_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/{} Mobile/15E148 Safari/604.1",
+            "Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/{} Mobile/15E148 Safari/604.1",
+            "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/{} Mobile/15E148 Safari/604.1",
+            "Mozilla/5.0 (iPhone; CPU iPhone OS 10_0 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) CriOS/{} Mobile/14E5239e Safari/602.1",
+            "Mozilla/5.0 (iPhone; CPU iPhone OS 9_0 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) CriOS/{} Mobile/13A344 Safari/601.1",
+            "Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) CriOS/{} Mobile/12A365 Safari/600.1.4",
+            "Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) CriOS/{} Mobile/11A465 Safari/9537.53",
+            "Mozilla/5.0 (iPhone; CPU iPhone OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) CriOS/{} Mobile/10A403 Safari/8536.25"
+        ]
+    },
+    "instagram": {
+        "realme": [
+            "29/10; 480dpi; 1080x2400; realme; RMX3081; RMX3081; qcom",
+            "29/10; 480dpi; 1080x2400; realme; RMX2156; RMX2156; mt6769",
+            "29/10; 480dpi; 1080x2400; realme; RMX3031; RMX3031; mt6893",
+            "29/10; 480dpi; 720x1600; realme; RMX3195; RMX3195; mt6769",
+            "29/10; 480dpi; 1080x2400; realme; RMX2170; RMX2170; qcom",
+            "29/10; 480dpi; 1080x2400; realme; RMX2086; RMX2086; qcom",
+            "29/10; 480dpi; 1080x2400; realme; RMX2061; RMX2061; qcom",
+            "29/10; 480dpi; 720x1560; realme; RMX2185; RMX2185; mt6765",
+            "29/10; 480dpi; 1080x2400; realme; RMX2155; RMX2155; mt6769",
+            "29/10; 480dpi; 720x1600; realme; RMX2193; RMX2193; mt6769"
+        ],
+        "oppo": [
+            "29/10; 480dpi; 1440x3200; oppo; CPH2173; CPH2173; qcom",
+            "29/10; 480dpi; 1080x2400; oppo; CPH2249; CPH2249; mt6893",
+            "29/10; 480dpi; 1080x2400; oppo; CPH2203; CPH2203; mt6779",
+            "29/10; 480dpi; 1080x2400; oppo; CPH2159; CPH2159; mt6771",
+            "29/10; 480dpi; 1080x2400; oppo; CPH2207; CPH2207; qcom",
+            "29/10; 480dpi; 720x1600; oppo; CPH2127; CPH2127; qcom",
+            "29/10; 480dpi; 1080x2400; oppo; CPH2219; CPH2219; qcom",
+            "29/10; 480dpi; 1080x2400; oppo; CPH2095; CPH2095; qcom",
+            "29/10; 480dpi; 1080x2400; oppo; CPH2059; CPH2059; qcom",
+            "29/10; 320dpi; 720x1600; oppo; CPH1931; CPH1931; qcom"
+        ],
+        "vivo": [
+            "29/10; 480dpi; 1080x2376; vivo; Vivo 2021; Vivo 2021; qcom",
+            "29/10; 480dpi; 1080x2404; vivo; V2061; V2061; mt6771",
+            "29/10; 480dpi; 1080x2408; vivo; V2059; V2059; mt6833",
+            "29/10; 480dpi; 1080x2376; vivo; V2006; V2006; qcom",
+            "29/10; 480dpi; 1080x2400; vivo; V2050; V2050; mt6771",
+            "29/10; 320dpi; 720x1600; vivo; V2027; V2027; mt6765",
+            "29/10; 480dpi; 1080x2376; vivo; V2045; V2045; exynos5",
+            "29/10; 320dpi; 1080x2340; vivo; V1920; V1920; qcom",
+            "29/10; 320dpi; 720x1544; vivo; V1901; V1901; mt6762",
+            "29/10; 480dpi; 1080x2400; vivo; V1938; V1938; exynos5"
+        ],
+        "samsung": [
+            "29/10; 560dpi; 1080x2400; samsung; SM-G991B; SM-G991B; exynos5",
+            "29/10; 560dpi; 1440x3088; samsung; SM-N986B; SM-N986B; exynos5",
+            "29/10; 560dpi; 1440x3040; samsung; SM-G973F; SM-G973F; exynos5",
+            "29/10; 420dpi; 1080x2400; samsung; SM-A525F; SM-A525F; qcom",
+            "29/10; 560dpi; 1080x2400; samsung; SM-G780F; SM-G780F; exynos5",
+            "29/10; 420dpi; 1080x2400; samsung; SM-M325F; SM-M325F; mt6769",
+            "29/10; 420dpi; 1080x2400; samsung; SM-A725F; SM-A725F; qcom",
+            "29/10; 420dpi; 1080x2208; samsung; SM-F926B; SM-F926B; qcom",
+            "29/10; 320dpi; 1600x2560; samsung; SM-T870; SM-T870; qcom",
+            "33/13; 256dpi; 720x1478; samsung; SM-A037M; SM-A037M; mt6765"
+        ],
+        "infinix": [
+            "29/10; 320dpi; 720x1640; infinix; X682C; Hot 10; mt6761",
+            "29/10; 480dpi; 1080x2460; infinix; X692; Note 8; mt6785",
+            "29/10; 320dpi; 720x1600; infinix; X657; Smart 5; mt6761",
+            "29/10; 320dpi; 720x1600; infinix; X655C; Hot 9; mt6765",
+            "29/10; 480dpi; 1080x2460; infinix; X687; Zero 8; mt6785",
+            "29/10; 320dpi; 720x1600; infinix; X652; S5; mt6762",
+            "29/10; 320dpi; 720x1600; infinix; X650C; Hot 8; mt6761",
+            "29/10; 480dpi; 1080x2460; infinix; X690; Note 7; mt6765",
+            "29/10; 320dpi; 720x1440; infinix; X657; X657; mt6580",
+            "30/11; 320dpi; 720x1568; infinix; X689F; X689F; mt6765"
+        ],
+        "google": [
+            "29/10; 480dpi; 1440x3120; google; Pixel 6 Pro; Pixel 6 Pro; tensor",
+            "29/10; 440dpi; 1080x2400; google; Pixel 5a; Pixel 5a; qcom",
+            "29/10; 440dpi; 1440x3040; google; Pixel 4 XL; Pixel 4 XL; qcom",
+            "29/10; 440dpi; 1080x2220; google; Pixel 3a; Pixel 3a; qcom",
+            "27/10; 560dpi; 1440x2560; google; Nexus 6P; Nexus 6P; hwp3c",
+            "27/10; 420dpi; 1080x1920; google; Nexus 5X; Nexus 5X; hhz12b",
+            "29/10; 440dpi; 1080x2160; google; Pixel 3; Pixel 3; qcom",
+            "29/10; 440dpi; 1080x1920; google; Pixel 2; Pixel 2; qcom",
+            "33/13; 440dpi; 1080x2138; google; Pixel 4a; sunfish",
+            "34/14; 420dpi; 1080x2138; google; Pixel 7; panther"
+        ],
+        "huawei": [
+            "29/10; 480dpi; 1224x2696; HUAWEI; ELS-NX9; ELS-NX9; hiae",
+            "29/10; 480dpi; 1344x2772; HUAWEI; NOH-NX9; NOH-NX9; hiae",
+            "29/10; 480dpi; 1080x2340; HUAWEI; VOG-L29; VOG-L29; hirin",
+            "29/10; 480dpi; 1080x2310; HUAWEI; JNY-LX1; JNY-LX1; hiae",
+            "29/10; 420dpi; 2200x2480; HUAWEI; TAH-N29m; TAH-N29m; hiae",
+            "29/10; 480dpi; 1080x2340; HUAWEI; STK-L21; STK-L21; hiae",
+            "29/10; 480dpi; 1080x2310; HUAWEI; JNY-LX1; JNY-LX1; hiae",
+            "29/10; 320dpi; 1200x1920; HUAWEI; SCM-W09; SCM-W09; hiae",
+            "29/10; 480dpi; 1080x2400; HUAWEI; LLD-AN00; LLD-AN00; hiae",
+            "29/10; 480dpi; 1080x2340; HUAWEI; HRY-LX1T; HRY-LX1T; hiae"
+        ],
+        "iphone": [
+            "iPhone16,1; iOS 17_1_2; {}; {}; scale=3.00; 1179x2556",
+            "iPhone15,3; iOS 17_1_1; {}; {}; scale=3.00; 1290x2796",
+            "iPhone14,2; iOS 16_2; {}; {}; scale=3.00; 1170x2532",
+            "iPhone13,2; iOS 16_1; {}; {}; scale=3.00; 1170x2532",
+            "iPhone12,1; iOS 15_6_1; {}; {}; scale=2.00; 828x1792",
+            "iPhone11,2; iOS 16_6_1; {}; {}; scale=3.00; 1125x2436",
+            "iPhone10,4; iOS 16_2; {}; {}; scale=2.00; 750x1334",
+            "iPhone9,3; iOS 14_6; {}; {}; scale=2.00; 750x1334",
+            "iPhone8,2; iOS 15_8; {}; {}; scale=3.00; 1242x2208",
+            "iPhone7,2; iOS 12_5_1; {}; {}; scale=2.00; 750x1334"
+        ]
+    }
+}
