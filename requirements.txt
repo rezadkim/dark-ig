@@ -4,3 +4,4 @@ pytz
 pynacl
 requests
 pycryptodomex
+inquirer
