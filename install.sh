@@ -22,7 +22,7 @@ termux() {
     echo
     echo -e "${W}[ ${B}INFO${W} ] ${G}dark-ig${W}: installing ${Y}git${W}, ${Y}python3.10${W} ..."
     echo
-    pkg i -y git python python-pip binutils build-essential libffi libjpeg-turbo libcrypt
+    pkg i -y git python3.10 binutils build-essential
     echo
     echo -e "${W}[ ${B}INFO${W} ] ${G}dark-ig${W}: cloning github repository ..."
     echo
@@ -31,32 +31,32 @@ termux() {
     fi
     git clone --depth 1 https://github.com/rezadkim/dark-ig
     echo
-    echo -e "${W}[ ${B}INFO${W} ] ${G}dark-ig${W}: upgrading ${Y}pip${W} ..."
+    echo -e "${W}[ ${B}INFO${W} ] ${G}dark-ig${W}: upgrading ${Y}pip3.10${W} ..."
     echo
-    python3 -m pip install --upgrade pip
+    python3.10 -m pip install --upgrade pip
     echo
-    echo -e "${W}[ ${B}INFO${W} ] ${G}dark-ig${W}: install ${Y}requirements.txt${W} with pip ..."
+    echo -e "${W}[ ${B}INFO${W} ] ${G}dark-ig${W}: install ${Y}requirements.txt${W} with pip3.10 ..."
     echo
     cd $folder || exit 1
-    python3 -m pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org -r requirements.txt
+    python3.10 -m pip install -r requirements.txt
     echo
-    echo -e "${W}[ ${B}INFO${W} ] ${G}dark-ig${W}: installing ${Y}dark-ig${W} ..."
+    echo -e "${W}[ ${B}INFO${W} ] ${G}dark-ig${W}: install ${Y}darkig${W} with setuptools ..."
     echo
-    python3 -m pip install .
+    python3.10 -m pip install .
     echo
     echo -e "${W}[ ${B}INFO${W} ] ${G}dark-ig${W}: cleaning cache after build ${Y}setup.py${W} ..."
     [ -d build ] && rm -rf build
-    [ -d dark-ig.egg-info ] && rm -rf dark-ig.egg-info
+    [ -d darkig.egg-info ] && rm -rf darkig.egg-info
     find . -name "*.jpg" -delete
     find . -name "*.png" -delete
     find . -name "*.md" -delete
     echo
-    if [ -f /data/data/com.termux/files/usr/bin/dark-ig ]; then
+    if [ -f /data/data/com.termux/files/usr/bin/darkig ]; then
         echo -e "${G}INSTALLATION SUCCESS${W}"
         echo
-        python3 -m pip show dark-ig
+        python3.10 -m pip show darkig
         echo
-        echo -e "${W}now you can run dark-ig with command: ${G}dark-ig${W}"
+        echo -e "${W}now you can run dark-ig with command: ${G}darkig${W}"
         echo
     else
         echo -e "${R}INSTALLATION FAILED${W}"
@@ -83,7 +83,7 @@ linux() {
     if [ -d $folder ]; then
         mv $folder "${folder}-backup"
     fi
-    git clone --depth 1 https://github.com/rezadkim/dark-ig
+    git clone --depth 1 https://github.com/iqbalmh18/dark-ig
     echo
     echo -e "${W}[ ${B}INFO${W} ] ${G}dark-ig${W}: install ${Y}pip3.10${W} ..."
     echo
@@ -94,23 +94,23 @@ linux() {
     cd $folder || exit 1
     python3.10 -m pip install -r requirements.txt
     echo
-    echo -e "${W}[ ${B}INFO${W} ] ${G}dark-ig${W}: install ${Y}dark-ig${W} with setuptools ..."
+    echo -e "${W}[ ${B}INFO${W} ] ${G}dark-ig${W}: install ${Y}darkig${W} with setuptools ..."
     echo
     python3.10 -m pip install .
     echo
     echo -e "${W}[ ${B}INFO${W} ] ${G}dark-ig${W}: cleaning cache after build ${Y}setup.py${W} ..."
     [ -d build ] && rm -rf build
-    [ -d dark-ig.egg-info ] && rm -rf dark-ig.egg-info
+    [ -d darkig.egg-info ] && rm -rf darkig.egg-info
     find . -name "*.jpg" -delete
     find . -name "*.png" -delete
     find . -name "*.md" -delete
     echo
-    if command -v dark-ig &> /dev/null; then
+    if command -v darkig &> /dev/null; then
         echo -e "${G}INSTALLATION SUCCESS${W}"
         echo
-        python3.10 -m pip show dark-ig
+        python3.10 -m pip show darkig
         echo
-        echo -e "${W}now you can run dark-ig with command: ${G}dark-ig${W}"
+        echo -e "${W}now you can run dark-ig with command: ${G}darkig${W}"
         echo
     else
         echo -e "${R}INSTALLATION FAILED${W}"
