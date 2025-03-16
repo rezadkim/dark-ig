@@ -46,27 +46,8 @@ termux() {
     echo
     echo -e "${W}[ ${B}INFO${W} ] ${G}dark-ig${W}: creating symbolic link for darkig ..."
     echo
-    # Buat symlink ke darkig.py di direktori yang ada di PATH
-    ln -sf "$(pwd)/darkig.py" /data/data/com.termux/files/usr/bin/darkig
     echo
-    echo -e "${W}[ ${B}INFO${W} ] ${G}dark-ig${W}: cleaning cache after build ${Y}setup.py${W} ..."
-    [ -d build ] && rm -rf build
-    [ -d darkig.egg-info ] && rm -rf darkig.egg-info
-    find . -name "*.jpg" -delete
-    find . -name "*.png" -delete
-    find . -name "*.md" -delete
-    echo
-    if [ -f /data/data/com.termux/files/usr/bin/darkig ]; then
-        echo -e "${G}INSTALLATION SUCCESS${W}"
-        echo
-        python3.10 -m pip show darkig
-        echo
-        echo -e "${W}now you can run dark-ig with command: ${G}darkig${W}"
-        echo
-    else
-        echo -e "${R}INSTALLATION FAILED${W}"
-        echo
-    fi
+    echo -e "${W}now you can run dark-ig with command: ${G}python darkig.py${W}"
 }
 
 linux() {
