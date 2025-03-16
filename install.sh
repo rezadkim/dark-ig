@@ -47,7 +47,7 @@ termux() {
     echo -e "${W}[ ${B}INFO${W} ] ${G}dark-ig${W}: creating symbolic link for darkig ..."
     echo
     echo
-    echo -e "${W}now you can run dark-ig with command: ${G}python darkig.py${W}"
+    echo -e "${W}now you can run dark-ig with command: ${G}cd dark-ig && python darkig.py${W}"
 }
 
 linux() {
