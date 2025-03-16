@@ -11,6 +11,9 @@ def main():
         # Path ke darkig.py (berada di direktori root dark-ig/)
         darkig_script = os.path.join(os.path.dirname(package_dir), 'darkig.py')
         
+        # Debug: Cetak path yang digunakan
+        print(f"Looking for darkig.py at: {darkig_script}")
+        
         # Pastikan file darkig.py ada
         if not os.path.exists(darkig_script):
             print(f"Error: File '{darkig_script}' not found.")
