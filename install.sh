@@ -33,15 +33,15 @@ termux() {
     echo
     echo -e "${W}[ ${B}INFO${W} ] ${G}darkig${W}: upgrading ${Y}pip3.10${W} ..."
     echo
-    python3.10 -m pip install --upgrade pip
+    python3.12 -m pip install --upgrade pip
     echo
     echo -e "${W}[ ${B}INFO${W} ] ${G}darkig${W}: install ${Y}requirements.txt${W} with pip3.10 ..."
     echo
     cd $folder || exit 1
-    python3.10 -m pip install -r requirements.txt
+    python3.12 -m pip install -r requirements.txt
     echo
     echo
-    python3.10 -m pip install .
+    python3.12 -m pip install .
     echo
     echo -e "${W}[ ${B}INFO${W} ] ${G}darkig${W}: cleaning cache after build ${Y}setup.py${W} ..."
     [ -d build ] && rm -rf build
