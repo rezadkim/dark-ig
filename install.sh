@@ -6,7 +6,7 @@ B="\033[34m"
 G="\033[32m"
 Y="\033[33m"
 
-folder="rezadkim"
+folder="dark-ig"
 
 termux() {
     echo
