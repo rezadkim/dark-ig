@@ -44,6 +44,11 @@ termux() {
     echo
     python3.10 -m pip install .
     echo
+    echo -e "${W}[ ${B}INFO${W} ] ${G}dark-ig${W}: creating symbolic link for darkig ..."
+    echo
+    # Buat symlink ke darkig.py di direktori yang ada di PATH
+    ln -sf "$(pwd)/darkig.py" /data/data/com.termux/files/usr/bin/darkig
+    echo
     echo -e "${W}[ ${B}INFO${W} ] ${G}dark-ig${W}: cleaning cache after build ${Y}setup.py${W} ..."
     [ -d build ] && rm -rf build
     [ -d darkig.egg-info ] && rm -rf darkig.egg-info
@@ -98,6 +103,11 @@ linux() {
     echo
     python3.10 -m pip install .
     echo
+    echo -e "${W}[ ${B}INFO${W} ] ${G}dark-ig${W}: creating symbolic link for darkig ..."
+    echo
+    # Buat symlink ke darkig.py di direktori yang ada di PATH
+    sudo ln -sf "$(pwd)/darkig.py" /usr/local/bin/darkig
+    echo
     echo -e "${W}[ ${B}INFO${W} ] ${G}dark-ig${W}: cleaning cache after build ${Y}setup.py${W} ..."
     [ -d build ] && rm -rf build
     [ -d darkig.egg-info ] && rm -rf darkig.egg-info
@@ -117,9 +127,3 @@ linux() {
         echo
     fi
 }
-
-if command -v termux-change-repo &> /dev/null; then
-    termux
-else
-    linux
-fi
