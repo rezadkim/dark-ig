@@ -1,7 +1,0 @@
-bs4
-rich
-pytz
-pynacl
-requests
-pycryptodomex
-inquirer
