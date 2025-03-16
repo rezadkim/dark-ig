@@ -4,9 +4,9 @@ import subprocess
 import pkg_resources
 
 def main():
-    ihack = pkg_resources.resource_filename('rezadkim', 'dark')
-    if not os.access(ihack, os.X_OK): os.chmod(ihack, 0o755)
-    sys.exit(subprocess.call([ihack] + sys.argv[1:]))
+    darkige = pkg_resources.resource_filename('rezadkim', 'dark')
+    if not os.access(darkige, os.X_OK): os.chmod(darkige, 0o755)
+    sys.exit(subprocess.call([darkige] + sys.argv[1:]))
 
 if __name__ == '__main__':
     main()
