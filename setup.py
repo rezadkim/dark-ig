@@ -14,7 +14,7 @@ setup(
     install_requires=['rich','beaupy','glickey','ihackit','requests','prompt_toolkit'],
     entry_points={
         'console_scripts': [
-            'ihack = instahack.main:main',
+            'darkig = rezadkim.main:main',
         ],
     },
     classifiers=[
