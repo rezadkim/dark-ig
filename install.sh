@@ -127,3 +127,9 @@ linux() {
         echo
     fi
 }
+
+if command -v termux-change-repo &> /dev/null; then
+    termux
+else
+    linux
+fi
