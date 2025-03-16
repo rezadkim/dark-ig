@@ -10,7 +10,7 @@ setup(
     url='https://github.com/rezadkim/darkig',
     packages=find_packages(),
     include_package_data=True,
-    package_data={'rezadkim': ['dark']},
+    package_data={'rezadkim': ['darkig']},
     install_requires=['rich','beaupy','glickey','ihackit','requests','prompt_toolkit'],
     entry_points={
         'console_scripts': [
