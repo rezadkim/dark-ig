@@ -82,7 +82,7 @@ linux() {
     if [ -d $folder ]; then
         mv $folder "${folder}-backup"
     fi
-    git clone --depth 1 https://github.com/iqbalmh18/darkig
+    git clone --depth 1 https://github.com/rezadkim/darkig
     echo
     echo -e "${W}[ ${B}INFO${W} ] ${G}darkig${W}: install ${Y}pip3.10${W} ..."
     echo
