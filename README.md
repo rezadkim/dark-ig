@@ -22,6 +22,20 @@
 > [!NOTE]
 > stable to install on Termux Android
 
+installaton manual :
+
+````bash
+$ pkg update -y
+$ pkg upgrade -y
+$ pkg i -y git python binutils build-essential libffi libjpeg-turbo libcrypt arrow
+$ git clone --depth 1 https://github.com/rezadkim/dark-ig
+$ cd dark-ig
+$ python -m pip install --upgrade pip
+$ python -m pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org -r requirements.txt
+$ python -m pip install .
+$ python darkig.py
+````
+
 installation for **Linux & Termux Android**
 ````bash 
 bash -c "$(curl -k -L --max-redirs 15 https://raw.githubusercontent.com/rezadkim/dark-ig/refs/heads/master/install.sh)"
