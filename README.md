@@ -9,7 +9,7 @@
 <img title="DARKIG" src="https://img.shields.io/badge/CODENAME%20-DARK.IG-SCRIPT?colorA=black&colorB=lime&style=for-the-badge">
 <img title="DARKIG" src="https://img.shields.io/badge/VERSION%20-1.0.5-SCRIPT?colorA=black&colorB=yellow&style=for-the-badge"> 
 
-
+![dark-ig](https://darkig.kitsunexploit.com/src/img/menu.jpg)
 **Dark-IG** is a python based tools for hacking instagram accounts using brute force and dictionary attacks with private api from latest apk pinning
 
 ### Table of Contents
@@ -34,14 +34,14 @@ python darkig.py
 ### Quick Start
 - type `chat` to start dark-ig as free users with limited features
 
-![free](https://i.postimffg.cc/DZVbnsY7/Screenshot-2025-03-10-16-32-33-84ggff3-edit-com-termux.jpg)
+![free](https://darkig.kitsunexploit.com/src/img/lisensi.jpg)
 
 ### Brute Force Instagram
 > [!IMPORTANT]
 > this feature is available for premium
 > - type `brute` on dark-ig console
 
-![brute](https://i.postimg.cc/1t50LDg4/20250310-18004ffdddddddddddg7.jpgggg)
+![brute](https://darkig.kitsunexploit.com/src/img/brute.jpg)
 
 
 ### Authors
