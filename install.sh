@@ -22,7 +22,7 @@ termux() {
     echo
     echo -e "${W}[ ${B}INFO${W} ] ${G}dark-ig${W}: installing ${Y}git${W}, ${Y}python3.10${W} ..."
     echo
-    pkg i -y git python3.10 binutils build-essential libffi libjpeg-turbo libcrypt
+    pkg i -y git python3.10 binutils build-essential libffi libjpeg-turbo libcrypt arrow
     echo
     echo -e "${W}[ ${B}INFO${W} ] ${G}dark-ig${W}: cloning GitHub repository ..."
     echo
