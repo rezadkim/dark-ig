@@ -1,28 +1,62 @@
 ```text
   ╔╦╗┌─┐┬─┐┬┌─   ╦╔═╗
-   ║║├─┤├┬┘├┴┐───║║ ╦ @v1.0.4
+   ║║├─┤├┬┘├┴┐───║║ ╦ @v1.0.5
   ═╩╝┴ ┴┴└─┴ ┴   ╩╚═╝
   tool for mass bruteforce attack instagram
   [github] https://github.com/rezadkim
                                    
 ```
 <img title="DARKIG" src="https://img.shields.io/badge/CODENAME%20-DARK.IG-SCRIPT?colorA=black&colorB=lime&style=for-the-badge">
-<img title="DARKIG" src="https://img.shields.io/badge/VERSION%20-1.0.4-SCRIPT?colorA=black&colorB=yellow&style=for-the-badge"> 
+<img title="DARKIG" src="https://img.shields.io/badge/VERSION%20-1.0.5-SCRIPT?colorA=black&colorB=yellow&style=for-the-badge"> 
 
-(Tidak ada Logger, Enkripsi hanya mengamankan Lisensi)
 
-dark-ig is a python-based tool for hacking instagram with mass-bruteforce attack and auto-generate password using login method from ssl pinning bypass.
+**Dark-IG** is a python based tools for hacking instagram accounts using brute force and dictionary attacks with private api from latest apk pinning
 
-<i>this tool is available for termux android.</i>
+### Table of Contents
+- [Installation](#installation)
+- [Quick Start](#quick-start)
+- [Brute Force Instagram](#brute-force-instagram)
+- [Authors](#authors)
 
-### installation
+### Installation
+> [!NOTE]
+> stable to install on Termux Android
 
-Auto installation for termux android
+installation for **Linux & Termux Android**
+````bash 
+bash -c "$(curl -k -L --max-redirs 15 https://raw.githubusercontent.com/rezadkim/dark-ig/refs/heads/master/install.sh)"
+````
+running Dark-IG
 ```bash
-$ source <(curl -fsSL http://darkig.kitsunexploit.com/install.sh)
+python darkig.py
 ```
-running darkig.py
-```bash
-python3 darkig.py
-```
-### requires
+
+### Quick Start
+- type `chat` to start dark-ig as free users with limited features
+
+![free](https://i.postimffg.cc/DZVbnsY7/Screenshot-2025-03-10-16-32-33-84ggff3-edit-com-termux.jpg)
+
+### Brute Force Instagram
+> [!IMPORTANT]
+> this feature is available for premium
+> - type `brute` on dark-ig console
+
+![brute](https://i.postimg.cc/1t50LDg4/20250310-18004ffdddddddddddg7.jpgggg)
+
+
+### Authors
+<p align="center">
+  <img src="https://darkig.kitsunexploit.com/src/img/logo.png" width="150" style="border-radius: 50%;">
+  <br>
+  <b>Rezadkim</b>
+  <br>
+  <a href="https://chat.whatsapp.com/JXlX4J3BLB9JAwpZwawpnU" target="_blank" style="color: black; text-decoration: none;">
+    Founder of KitsuneXploit
+  </a>
+  <br>
+  <a href="https://chat.whatsapp.com/JXlX4J3BLB9JAwpZwawpnU" target="_blank" style="color: black; text-decoration: none;">
+    Follow on Channel Whatsapp
+  </a>
+</p>
+
+[*back to top*](#table-of-contents)
